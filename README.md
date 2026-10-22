@@ -1,105 +1,86 @@
-# Hi, I'm Bhadran S S
+# Bhadran S S
 
-### Full-Stack Developer | Web, Backend, Mobile and Secure Product Workflows
+**Software Engineer | Full Stack Developer**
 
-I build reliable web and mobile products across the full stack - from responsive interfaces and REST APIs to authentication, databases and deployment.
+I build web applications with React, Node.js, Express and MongoDB. My professional experience includes client-specific banking workflows, Python data migration scripts, authentication and third-party integrations.
 
-[Portfolio](https://bhadran-ss.vercel.app) | [LinkedIn](https://www.linkedin.com/in/bhadran-ss-09a4572a1/) | [Email](mailto:ssbhadran10@gmail.com)
+Based in Thrissur, Kerala, India. Open to full-stack, frontend and backend opportunities.
 
-## About Me
-
-- Full-Stack Developer with professional experience in enterprise web, mobile and core-banking applications.
-- Contributed to the COLIGO platform at INav Technologies, working on authentication, KYC verification, eNACH workflows, backend integrations and application modernization.
-- Experienced with JavaScript, TypeScript, React, Next.js, Angular, Node.js, Express, FastAPI and Flutter.
-- Comfortable working with MongoDB, PostgreSQL, MySQL, Redis and Firebase.
-- Interested in full-stack roles where product quality, thoughtful interfaces and dependable systems all matter.
-
-## Core Strengths
-
-- **Full-stack product development:** responsive interfaces, backend services, databases and deployment.
-- **Security and authentication:** JWE/JWT, TOTP, RBAC, bcrypt, HTTP-only cookies and AES encryption.
-- **Enterprise integrations:** KYC verification, eNACH processing and service-to-service workflows.
-- **Cross-platform development:** Flutter applications for mobile and desktop platforms.
-- **Maintainable delivery:** reusable components, clear API boundaries and Git-based workflows.
-
-## Professional Experience
-
-### INav Technologies Pvt. Ltd. - Full Stack Developer
-
-`Oct 2025 - Jun 2026 | Kochi, India`
-
-- Contributed to the development and modernization of COLIGO, a legacy core-banking platform.
-- Implemented and integrated TOTP-based authentication across applications and services.
-- Integrated KYC verification using fuzzy matching and supported automated identity verification.
-- Connected eNACH and other banking workflows with internal and external services.
-- Rebuilt customer-facing applications with Flutter to improve structure, performance and maintainability.
-
-### Rogersoft Technologies Pvt. Ltd. - MERN Stack Developer Intern
-
-`Dec 2024 - Apr 2025 | Kochi, India`
-
-- Developed full-stack applications with MongoDB, Express, React and Node.js.
-- Built reusable React components, REST APIs and database-backed features.
-- Contributed to debugging, testing and Git-based development workflows.
+[Portfolio](https://bhadran-ss.vercel.app) · [LinkedIn](https://www.linkedin.com/in/bhadran-s-s-09a4572a1/) · [Email](mailto:ssbhadran10@gmail.com)
 
 ## Selected Projects
 
-### [MERN E-Commerce Marketplace](https://github.com/bhadran-ss/mern-ecommerce)
+These are independent projects. Each title links to its source code.
 
-A multi-role marketplace with product discovery, inventory-aware carts, seller operations and Stripe checkout.
+### [Vistyle — MERN E-Commerce Marketplace](https://github.com/bhadran-ss/mern-ecommerce)
 
-`React` `Redux Toolkit` `Node.js` `Express` `MongoDB` `Redis` `Stripe`
+A shopping application with customer, seller and administrator workflows.
 
-- Secured access and refresh tokens with JWE, AES-256-GCM, HTTP-only cookies and Redis-backed validation.
-- Built customer, seller and administrator workflows with protected routes and role-based authorization.
-- Added stock management, Cloudinary multi-image uploads and Redux Toolkit state management.
+- Product discovery, inventory-aware carts, seller applications and approval, and seller-owned product management.
+- Encrypted JWE access and refresh tokens, HTTP-only cookies, Redis-backed refresh-token validation and role-based authorization.
+- Stripe **test-mode** checkout with verified webhooks, duplicate-event checks and MongoDB transactions for order creation and inventory updates.
 
-### [Sponsor - Innovator Relationship Platform](https://github.com/bhadran-ss/sponsor_app)
+**Stack:** React, Redux Toolkit, Node.js, Express, MongoDB, Redis, Stripe, Cloudinary.
 
-A role-based platform connecting innovators with sponsors through idea discovery, proposals, deal tracking and private messaging.
+### [Sponsor–Innovator Platform](https://github.com/bhadran-ss/sponsor_app)
 
-`React` `FastAPI` `PostgreSQL` `Firebase Authentication` `Cloudinary`
+A platform for publishing ideas, exploring sponsorship opportunities and tracking collaboration.
 
-- Built innovator, sponsor and administrator workflows.
-- Integrated FastAPI REST APIs, PostgreSQL and Firebase Authentication.
-- Added idea management, saved ideas, proposals, deal stages and private conversations.
+- Role-based idea publishing and discovery, Firebase Authentication and administrator verification.
+- Participant-restricted deal tracking, role-specific stage transitions and private messaging with unread counts.
+- PostgreSQL data management with SQLAlchemy and schema migrations with Alembic.
+
+**Stack:** React, Python, FastAPI, PostgreSQL, SQLAlchemy, Alembic, Firebase Authentication, Cloudinary.
 
 ### [Cloud Clipboard Sync](https://github.com/bhadran-ss/Cloud-Clipboard-Sync)
 
-A cross-platform Flutter application that synchronizes encrypted clipboard history through a private GitHub Gist.
+A Flutter application for storing clipboard history locally and synchronizing entries through GitHub Gists.
 
-`Flutter` `Dart` `GitHub Gist API` `Hive` `AES-256-CBC`
+- Hive offline storage and clipboard-history restoration.
+- Periodic synchronization, pending-upload retries and ID-based merging of local and remote entries.
 
-- Supports Android, iOS, Windows, macOS and Linux.
-- Provides offline history, pending-sync recovery and automatic synchronization.
-- Encrypts clipboard data and handles multi-device history conflicts.
+**Stack:** Flutter, Dart, Provider, Hive, GitHub Gist API.
 
-### [EventHub](https://github.com/bhadran-ss/event-booking-portal)
+## Professional Experience
 
-A deployed event and ticket-booking platform for organizers and customers, designed around safe concurrent inventory updates.
+### INav Technologies Pvt. Ltd. — Full Stack Developer
 
-`React 19` `Node.js` `Express 5` `MongoDB` `JWT`
+**October 2025 – June 2026 · Kochi, India**
 
-- Includes event discovery, live availability, booking history and sold-out handling.
-- Provides organizer event management, ticket-sales summaries, revenue views and attendee reporting.
-- Uses customer, organizer, ownership and protected-route authorization checks.
+Contributed to **COLIGO**, a core-banking platform.
 
-## Technical Toolkit
+- Worked with clients to clarify requirements and customize banking calculations and workflows.
+- Wrote Python scripts to normalize, validate and transform legacy client data for migration into COLIGO's MySQL schema.
+- Implemented TOTP verification using shared secrets and time-window checks, and integrated third-party KYC services.
+- Contributed to eNACH repayment workflows by integrating third-party services and developing payment schedules for automatic loan repayments.
+- Contributed to customer self-service loan top-up and repayment modules and resolved UI issues.
+
+**Technologies used:** Angular, Flutter, Node.js, Python, FastAPI, PostgreSQL, MySQL.
+
+### Rogersoft Technologies Pvt. Ltd. — MERN Stack Developer Intern
+
+**December 2024 – April 2025 · Kochi, India**
+
+- Built responsive React interfaces and reusable components connected to REST APIs.
+- Developed Node.js/Express endpoints and worked with MongoDB data.
+- Contributed to feature development, debugging, testing and Git-based workflows.
+
+## Technical Skills
 
 | Area | Technologies |
 | --- | --- |
 | Languages | JavaScript, TypeScript, Python, Dart |
-| Frontend | React, Next.js, Angular, Redux Toolkit, HTML5, CSS3, Tailwind CSS |
-| Backend | Node.js, Express, FastAPI, REST APIs, WebSockets |
-| Databases | MongoDB, PostgreSQL, MySQL, Redis, Firebase, Hive |
-| Security | JWE/JWT, TOTP, RBAC, bcrypt, AES encryption, Firebase Auth |
-| Delivery | Git, GitHub, Docker, Postman, Vercel, Render, Cloudinary |
+| Frontend and mobile | React, Redux Toolkit, Angular, Flutter, HTML5, CSS3, Tailwind CSS |
+| Backend | Node.js, Express, FastAPI, REST APIs |
+| Data | MongoDB, PostgreSQL, MySQL, Redis, SQLAlchemy, Alembic |
+| Authentication | JWE, TOTP, role-based access control, Firebase Authentication |
+| Tools and services | Git, GitHub, Postman, Cloudinary, Stripe test mode |
 
-## Let's Connect
+## Education
 
-I'm interested in full-stack opportunities where I can contribute across product interfaces, backend systems, security and delivery.
+**Bachelor of Computer Applications (BCA), Bharathiar University**  
+June 2021 – May 2024
 
-- Portfolio: [bhadran-ss.vercel.app](https://bhadran-ss.vercel.app)
-- LinkedIn: [linkedin.com/in/bhadran-ss-09a4572a1](https://www.linkedin.com/in/bhadran-ss-09a4572a1/)
-- Email: [ssbhadran10@gmail.com](mailto:ssbhadran10@gmail.com)
+## Contact
 
+For software engineering opportunities, reach me at **[ssbhadran10@gmail.com](mailto:ssbhadran10@gmail.com)** or connect on **[LinkedIn](https://www.linkedin.com/in/bhadran-s-s-09a4572a1/)**.
